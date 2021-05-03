@@ -1,0 +1,40 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI';
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
+
+/*Styling in website itself*/
+h1 {font-family:'Poppins' 'Segoe UI'; color:#b2becd;}
+h3 {font-family:'Pacifico';}
+h2 {font-family:'Poppins'; color:#b2becd;}
+
+.roundCorners {
+    border-color: #fff;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+/*Making the  logo circular*/
+.circularBorderForLogo {
+    border-color: #fff;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 70%;
+}
+
+A {
+    text-decoration: none;
+    color: rgb(100, 1, 100);
+}
