@@ -1,10 +1,11 @@
 /*Font*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); /*Font for the tittles*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap'); /*Font for elements other then the tittle*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'Segoe UI';
+    font-family: 'Comfortaa', 'Segoe UI'; /*Normal font implemented*/ 
 }
 
 html,body{
@@ -14,9 +15,8 @@ html,body{
     place-items: center;
 }
 
-/*Styling in website itself*/
 h1 {font-family:'Poppins' 'Segoe UI'; color:#b2becd;}
-h3 {font-family:'Pacifico';}
+h3 {font-family:'Pacifico';} /*Tittle font implemented*/
 h2 {font-family:'Poppins'; color:#b2becd;}
 
 .roundCorners {
