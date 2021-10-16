@@ -1,6 +1,7 @@
 /*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); /*Font for the tittles*/
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap'); /*Font for elements other then the tittle*/
+
 *{
     margin: 0;
     padding: 0;
@@ -37,4 +38,11 @@ h2 {font-family:'Poppins'; color:#b2becd;}
 A {
     text-decoration: none;
     color: rgb(100, 1, 100);
+}
+
+#moto {
+    background-image: linear-gradient(90deg, #fa8142, #ff4088);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
